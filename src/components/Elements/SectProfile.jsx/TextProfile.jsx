@@ -3,6 +3,7 @@ import FindProfile from "./FindProfile";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import React, { useEffect } from "react";
+import { Mail } from "lucide-react";
 
 export default function TextProfile() {
     useEffect(() => {
@@ -21,7 +22,11 @@ export default function TextProfile() {
                         htext = "Sekilas Tentang Saya"
                     />
                 </div>
-                <p data-aos="zoom-in-up" className="mb-8">Halo! Saya Fadilla Izza Rahmadani seorang pelajar dari SMKN 2 Yogyakarta Jurusan Sistem Informasi Jaringan dan Aplikasi yang berdomisili di Bantul. Saat ini saya secara mendalam mengeksplorasi dunia teknologi, dengan fokus utama pada pengembangan antarmuka web</p>
+                <p data-aos="zoom-in-up" className="mb-1">Halo! Saya Fadilla Izza Rahmadani seorang pelajar dari SMKN 2 Yogyakarta Jurusan Sistem Informasi Jaringan dan Aplikasi yang berdomisili di Bantul. Saat ini saya secara mendalam mengeksplorasi dunia teknologi, dengan fokus utama pada pengembangan antarmuka web</p>
+                <div className="mb-5 flex justify-center">
+                    <Mail color="#0F1A2B" className="mr-2"/>
+                    <p>fadillaiizzarm@gmail.com</p>
+                </div>
                 <FindProfile />
             </div>
         </>
