@@ -15,6 +15,7 @@ export default {
         'cteal': '#567C8D',
         'cnavy':'#2F4156',
         'cdeepnavy':'#0F1A2B',
+        'ccust':'#C6D9F7',
       },
 
       screens: {

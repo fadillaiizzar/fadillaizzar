@@ -15,7 +15,7 @@ export default function ImgProfile(props) {
 
     return(
         <div data-aos="zoom-in-up" className="flex lg:w-1/3 justify-center items-center rounded-lg">
-            <img src={imgSrc} className="rounded-lg rounded-t-full w-64 h-64 object-cover shadow-[0_25px_50px_-10px_rgba(0,0,0,0.7)]" alt="foto profile dilla"/>
+            <img src={imgSrc} className="rounded-lg rounded-t-full w-64 h-64 object-cover shadow-2xl" alt="foto profile dilla"/>
         </div>
     );
 }

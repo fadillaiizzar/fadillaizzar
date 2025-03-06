@@ -11,7 +11,7 @@ export default function Navbar() {
     return(
         <div className="fixed top-0 left-0 w-full z-50">
             <div className="hidden md:flex justify-center pt-12 cursor-pointer font-semibold">
-                <div className="flex shadow-2xl rounded-full">
+                <div className="flex shadow-xl rounded-full">
                     <BtnNav
                         textnav="Beranda"
                         radius="rounded-l-full"

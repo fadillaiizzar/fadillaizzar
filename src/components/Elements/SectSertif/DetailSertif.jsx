@@ -3,7 +3,7 @@ export default function DetailSertif(props) {
     return(
         <>
             <div className="mt-7 grid grid-cols-2 lg:grid-cols-5">
-                <div className="col-span-2 rounded-lg lg:mx-auto shadow-2xl">
+                <div className="col-span-2 rounded-lg lg:mx-auto">
                     <img src={imgSertif} alt="sertif" className=" w-full h-full sm:w-[450px] sm:h-[300px] rounded-lg"/>
                 </div>
 
