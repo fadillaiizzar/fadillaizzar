@@ -23,7 +23,7 @@ export default function TextProfile() {
                     />
                 </div>
                 <p data-aos="zoom-in-up" className="mb-1">Halo! Saya Fadilla Izza Rahmadani seorang pelajar dari SMKN 2 Yogyakarta Jurusan Sistem Informasi Jaringan dan Aplikasi yang berdomisili di Bantul. Saat ini saya secara mendalam mengeksplorasi dunia teknologi, dengan fokus utama pada pengembangan antarmuka web</p>
-                <div className="mb-5 flex justify-center">
+                <div data-aos="zoom-in-up" className="mb-5 flex justify-center">
                     <Mail color="#0F1A2B" className="mr-2"/>
                     <p>fadillaiizzarm@gmail.com</p>
                 </div>
